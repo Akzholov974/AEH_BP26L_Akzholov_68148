@@ -1,4 +1,3 @@
-
 package com.example.lab6;
 
 public class myFifthApp {
@@ -23,7 +22,6 @@ public class myFifthApp {
 
         System.out.println("Calculating factorial for N = " + number + "\n");
 
-        // Measuring Iterative Method
         long startIterative = System.nanoTime();
         long resultIterative = calculateFactorialIterative(number);
         long endIterative = System.nanoTime();
@@ -32,20 +30,6 @@ public class myFifthApp {
         System.out.println("Iterative Result: " + resultIterative);
         System.out.println("Iterative Execution Time: " + durationIterative + " ns\n");
 
-        // Measuring Recursive Method
-        long startRecursive = System.nanoTime();
-        long resultRecursive = calculateFactorialRecursive(number);
-        long endRecursive = System.nanoTime();
-        long durationRecursive = endRecursive - startRecursive;
-
-        System.out.println("Recursive Result: " + resultRecursive);
-        System.out.println("Recursive Execution Time: " + durationRecursive + " ns\n");
-    }
-}
-        System.out.println("Iterative Result: " + resultIterative);
-        System.out.println("Iterative Execution Time: " + durationIterative + " ns\n");
-
-        // Measuring Recursive Method
         long startRecursive = System.nanoTime();
         long resultRecursive = calculateFactorialRecursive(number);
         long endRecursive = System.nanoTime();
