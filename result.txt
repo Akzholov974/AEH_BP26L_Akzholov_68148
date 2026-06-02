@@ -1,2 +1,8 @@
 File name: test.txt
-Number of lines: 1
+Total words: 5
+Word occurrences:
+file: 1
+test: 1
+to: 1
+my: 1
+welcome: 1
